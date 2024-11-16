@@ -10,6 +10,6 @@
   "author": "David Behar Lombrozo",
   "license": "ISC",
   "dependencies": {
-    "lodash": "github:lodash/lodash#4.17.21"
+    "lodash": "https://github.com/behagoras/experiment-with-npm"
   }
 }
