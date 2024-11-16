@@ -1,5 +1,4 @@
-import _ from "lodash";
-import axios from "axios";
+import {axios, lodash as _} from "experiment";
 
 console.log(_.isEmpty({})); // Debería imprimir true
 
