@@ -1,5 +1,6 @@
-export * from 'https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js';
-export * from 'https://cdn.jsdelivr.net/npm/lodash-es/lodash.js';
+// Usa un CDN compatible para Axios y Lodash
+import axiosModule from 'https://deno.land/x/axiod/mod.ts';
 
-export { default as lodash } from 'https://cdn.jsdelivr.net/npm/lodash-es/lodash.js';
-export { default as axios } from 'https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js';
+// Reexporta Axios como un miembro nombrado
+export const axios = axiosModule;
+
